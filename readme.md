@@ -58,22 +58,21 @@ yarn test
 
 import rover from 'mars-rover'
 
-//function chaining
-rover('5 5')('3 3 E')('MMRMMRMRRM')
+
+rover('5 5')('1 2 N')('LMLMLMLMM')
+
 
 #or
 
-//function declaration
 const mars = rover('5 5')
 mars('1 2 N')
-(mars('MMRMMRMRRM')
+mars('LMLMLMLMM')
 
-mars('3 3 E')
-(mars('MMRMMRMRRM')
 
 #or
 
-//or both
-const moon = rover('8 6')
-console.log(moon('3 3 E')('MMRMMRMRRM'))
+const mars = rover('5 5')
+mars('3 3 E')('MMRMMRMRRM')
+
+
 ```

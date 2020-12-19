@@ -80,6 +80,6 @@ test('Rover must not fall off the plateau', () => {
   expect(mars('MMMMMMMMMMMMMMMMMMM')).toBeUndefined()
 })
 
-test('Rover crazy chaining works', () => {
+test('Rover check if recursive chaining works', () => {
   expect(rover('5 5')('3 3 E')('MMRMMRMRRM')).toBe('5 1 E')
 })
