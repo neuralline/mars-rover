@@ -1,3 +1,6 @@
+/**
+ * @jest-environment node
+ */
 const rover = require('../src/index')
 
 test('Rover ERROR CONtROL', () => {
