@@ -11,6 +11,7 @@
 
 # production
 /build
+/dist
 /.rpt2_cache
 
 # misc
