@@ -1,4 +1,4 @@
-# MARS ROVERS
+# MARS ROVER
 
 <br/>
 
@@ -25,14 +25,28 @@ Each rover will be finished sequentially, which means that the second rover won'
 Output:
 The output for each rover should be its final co-ordinates and heading.<br/>
 
-> Test Input:<br/>
+## rover 1
+
+Input:<br/>
+
 > 5 5<br/>
 > 1 2 N<br/>
 > LMLMLMLMM<br/>
+
+Expected Output:<br/>
+
+> 1 3 N<br/>
+
+## reover 2
+
+Input:<br/>
+
+> 5 5<br/>
 > 3 3 E<br/>
 > MMRMMRMRRM<br/>
-> Expected Output:<br/>
-> 1 3 N<br/>
+
+Expected Output:<br/>
+
 > 5 1 E<br/>
 
 ## Installation
@@ -46,16 +60,14 @@ yarn install then yarn start
 ## Test
 
 ```sh
-npm run test
+npm run build then npm ren test
 #or
-yarn test
+yarn build then yarn test
 ```
 
-## On browser
+## Usage
 
 ```sh
-//mars-rover should work on browser with out bundling
-
 import rover from 'mars-rover'
 
 
